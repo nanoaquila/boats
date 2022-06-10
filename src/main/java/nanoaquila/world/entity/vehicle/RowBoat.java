@@ -35,7 +35,8 @@ public class RowBoat extends Boat {
 
     @Override
     protected void addAdditionalSaveData(CompoundTag tag) {
-        tag.putString("Type", this.getBoatType().getName());
+        //tag.putString("Type", this.getBoatType().getName()); --Thanks goto diesieben07
+        tag.putString("Type", this.getRowBoatType().getName());
     }
 
     @Override
