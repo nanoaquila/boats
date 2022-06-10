@@ -1,0 +1,8 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+[[mods]]
+modId="boats"
+version="${file.jarVersion}"
+displayName="Boats"
+description='''Just a demo of a problem im having'''
